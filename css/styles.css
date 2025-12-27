@@ -102,3 +102,18 @@ body {
   padding: 12px;
   margin-top: 20px;
 }
+/* Imágenes en la sección About */
+.images-row {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.images-row figure {
+  text-align: center;
+}
+
+.images-row img {
+  border-radius: 8px;
+  max-width: 100%;
+}
