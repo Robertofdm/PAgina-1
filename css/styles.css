@@ -62,25 +62,8 @@ body {
 
 /* Layout principal */
 .layout {
-  display: grid;
-  grid-template-columns: 220px 1fr;
-  gap: 20px;
+  display: block;
   padding: 20px;
-}
-
-/* Aside */
-.side {
-  background-color: white;
-  padding: 15px;
-  border-radius: 8px;
-}
-
-.side__title {
-  margin-bottom: 10px;
-}
-
-.side__list {
-  margin-left: 20px;
 }
 
 /* Main */
