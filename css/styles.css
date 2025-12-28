@@ -62,9 +62,11 @@ body {
 
 /* Layout principal */
 .layout {
-  display: block;
+  max-width: 1000px;
+  margin: 0 auto;
   padding: 20px;
 }
+
 
 /* Main */
 .content {
